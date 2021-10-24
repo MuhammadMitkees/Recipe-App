@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>edit Recipe</title>
+</head>
+
+<body>
+    <form id="titleDescription">
+        <p>Your title here</p>
+        <div>
+            <textarea name="title" id="titleContent" cols="30" rows="10" placeholder="Type.."></textarea>
+        </div>
+        <p>Your description here</p>
+        <div>
+            <textarea name="description" id="descriptionContent" cols="30" rows="10" placeholder="Type.. "></textarea>
+
+        </div>
+        <button id="saveRecipe">Save recipe</button>
+    </form>
+    <p>Ingredients</p>
+    <div id="ingredients"></div>
+    <form id="new-ingredient">
+        <input type="text" placeholder="Add ingredients" name="text">
+        <button>button</button>
+    </form>
+    <div>
+        <p>Danger zone</p>
+        <button id="deleteRecipe">Delete Recipe</button>
+    </div>
+    <div><button id="backButton">back</button></div>
+    <script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>
+    <script src="functions.js"></script>
+    <script src="app-edit.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</body>
+
+</html>

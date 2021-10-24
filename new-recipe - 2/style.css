@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  font-family: cursive;
+}
+.cardDiv {
+  border: solid black;
+  cursor: pointer;
+  margin: 10px 300px 10px 300px;
+  font-family: cursive;
+  font-size: revert;
+  text-align: center;
+}
